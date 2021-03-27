@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,7 +8,7 @@ using System.Data;
 
 public partial class cms_admin_SanPham_QuanLyDanhMuc_DanhMuc_HienThi : System.Web.UI.UserControl
 {
-    string madmcha = "0";
+    /*string madmcha = "0";
     protected void Page_Load(object sender, EventArgs e)
     {
         if (Request.QueryString["madmcha"] != null)
@@ -24,7 +24,7 @@ public partial class cms_admin_SanPham_QuanLyDanhMuc_DanhMuc_HienThi : System.We
         for (int i = 0; i < dt.Rows.Count; i++)
         {
            ltrDanhMuc.Text +=@"
-<tr id='maDong_" + dt.Rows[i]["MaDM"] + @"'>
+        <tr id='maDong_" + dt.Rows[i]["MaDM"] + @"'>
            <td class='cotMa'>" +dt.Rows[i]["MaDM"]+@"</td>
            <td class='cotTen'>" + dt.Rows[i]["TenDM"] + @"</td>
            <td class='cotAnh'>
@@ -39,8 +39,8 @@ public partial class cms_admin_SanPham_QuanLyDanhMuc_DanhMuc_HienThi : System.We
                <a href='Admin.aspx?modul=SanPham&modulphu=DanhMuc&thaotac=ChinhSua&id=" + dt.Rows[i]["MaDM"] + @"' class='sua' title='Sửa'></a>
                <a href='javascript:XoaDanhMuc(" + dt.Rows[i]["MaDM"] + @")' class='xoa' title='Xóa'></a>
            </td>
-</tr>
-";
+        </tr>
+        ";
         }
         
     }
@@ -54,5 +54,5 @@ public partial class cms_admin_SanPham_QuanLyDanhMuc_DanhMuc_HienThi : System.We
             return true;
         else
             return false;
-    }
-}*/
+    }*/
+}
